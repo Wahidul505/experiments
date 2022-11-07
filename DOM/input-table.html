@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Table</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header>
+    <h1 class="text-3xl text-blue-400 text-center my-6">This Input field is for users Table</h1>
+  </header>
+  <main>
+    <div class="text-center">
+      <input id="user-input" class="border-2 border-gray-400 rounded p-2 w-72 mr-2" type="text"
+        placeholder="Enter Your Name">
+      <button id="submit-btn" class="bg-gray-600 font-semibold text-white px-4 py-2 rounded-xl">Submit</button>
+    </div>
+    <div class="mt-12">
+      <table class="mx-auto table-auto">
+        <thead>
+          <tr>
+            <th id="serial" class="border-r-2 border-gray-600 px-4 py-2">Serial</th>
+            <th class="px-4 py-2">Users Name</th>
+            <th class="border-l-2 border-gray-600 px-4 py-2">Users Name</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+
+
+  <script src="scripts/input-table.js"></script>
+</body>
+
+</html>

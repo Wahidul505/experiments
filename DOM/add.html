@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add</title>
+  <style>
+    #comment-section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Adding Comments</h1>
+  <hr>
+  <section id="comment-section">
+    <section>
+      <div id="section-1">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, id sequi officiis incidunt ipsum quisquam
+          alias
+          corporis repudiandae dolorum aliquam est maxime itaque, laboriosam aliquid velit. Aut aliquid eveniet fuga!
+        </p>
+        <p>Mollitia quis animi quo minus! Dolorem quis magnam quidem nulla, sapiente sunt aperiam officia eum laboriosam
+          itaque porro, quibusdam fugit error? Esse beatae quam nemo ratione totam rem culpa ea?</p>
+      </div>
+      <hr>
+      <div>
+        <textarea name="" id="input-1" cols="50" rows="5"></textarea>
+        <br>
+        <button id="btn-1">Post</button>
+      </div>
+    </section>
+
+    <section>
+      <div id="section-2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis cupiditate incidunt voluptate
+          voluptas, facilis, iure veniam tenetur tempore porro minus officia vero illum nulla molestias, possimus eos
+          numquam aliquam?</p>
+        <p>Cum adipisci maiores laboriosam corporis debitis expedita excepturi libero, soluta reiciendis quidem vitae
+          nostrum maxime sunt asperiores, sequi autem, dolores mollitia. Voluptates soluta nisi at sequi hic, dolores
+          labore! Commodi.</p>
+      </div>
+      <hr>
+      <div>
+        <textarea name="" id="input-2" cols="50" rows="5"></textarea>
+        <br>
+        <button onclick="addComment()">Post</button>
+      </div>
+    </section>
+  </section>
+  <hr>
+  <section id="add-section">
+    <h1 id="added-comment" style="text-align: center;"></h1>
+    <div style="text-align: center;">
+      <button id="add-both">Add Both</button>
+    </div>
+  </section>
+
+
+  <script src="scripts/add.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 3em;
+    }
+
+    .box {
+      margin-bottom: 50px;
+      height: 200px;
+      width: 50%;
+      border: 5px solid darkcyan;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #box1 {
+      cursor: help;
+    }
+
+    #box2 {
+      cursor: not-allowed;
+    }
+
+    #box3 {
+      cursor: pointer;
+    }
+
+    #box4 {
+      cursor: wait;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <div id="box1" class="box">
+      <h1>HEllo there</h1>
+    </div>
+
+    <div id="box2" class="box">
+      <h1>CSS Cursor 1</h1>
+    </div>
+    <div id="box3" class="box">
+      <h1>CSS cursor 2</h1>
+    </div>
+    <div id="box4" class="box">
+      <h1>CSS cursor 3</h1>
+    </div>
+  </section>
+</body>
+
+</html>
